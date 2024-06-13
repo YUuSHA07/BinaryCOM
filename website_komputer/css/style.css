@@ -1,0 +1,237 @@
+.container{
+    width: 1080px;
+    margin: auto;
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #658EA0;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a{
+      display: block;
+      padding: 10px;
+      margin: 0;
+      background-color:#658EA0;
+      text-decoration: none;
+      color: white;
+  }
+  
+  nav ul li a:hover{
+      background-color:  #004AAD ;
+      color: white;
+  }
+
+  /* CSS style untuk card */
+.card {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+    border-radius: 15px;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS untuk tautan Edit dan Delete */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #658EA0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color:  #004AAD;
+}
+/* CSS style untuk form */
+form {
+    margin-top: 20px;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* CSS untuk tautan */
+.input a {
+    display: inline-block; /* Mengatur tautan menjadi blok agar dapat diberi padding */
+    padding: 10px 20px; /* Padding untuk tautan */
+    background-color: #658EA0; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah tautan */
+    border-radius: 5px; /* Mengatur sudut melengkung pada tautan */
+    margin-bottom: 10px;
+}
+
+/* CSS untuk efek hover */
+.input a:hover {
+    background-color:  #004AAD; /* Warna latar belakang saat dihover */
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.tampilan{
+    width: 100%;
+}
+.produk{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-flow: row wrap;
+    border-radius: 15px;
+    margin: 0;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+.tampil{
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+  .tampil tr{
+    border-bottom: 1px solid #ddd;
+  }
+
+  .tampil tr:hover {background-color: #658EA0 ;}
+
+  .tampil td{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 5px; 
+  }
+
+  /* CSS untuk baris pertama tabel */
+.tampil tr:first-child {
+    background-color: #658EA0; /* Warna latar belakang untuk baris pertama */
+    font-size: 16px; /* Ukuran font untuk baris pertama */
+    font-weight: bold; /* Tebalan font untuk baris pertama */
+    color: white    ;
+}
+
+/* CSS untuk formulir dengan kelas "input-klien" */
+.input-klien {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS untuk input teks */
+.input-klien input[type="text"], 
+.input-klien select ,
+.input-klien textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Untuk memastikan padding dan border dimasukkan ke dalam perhitungan lebar */
+}
+
+/* CSS untuk tombol */
+.input-klien button[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #658EA0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* CSS untuk efek hover pada tombol */
+.input-klien button[type="submit"]:hover {
+    background-color: #004AAD ;
+}
+
+/* CSS untuk card login */
+.card-login {
+    width: 300px; /* Atur lebar card sesuai kebutuhan */
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* CSS untuk judul */
+.card-login .judul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk tabel */
+.card-login table {
+    width: 100%;
+}
+
+/* CSS untuk label */
+.card-login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* CSS untuk input */
+.card-login input[type="text"],
+.card-login input[type="password"],
+.card-login input[type="submit"] {
+    width: calc(100% - 12px); /* Perhitungan lebar input */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* CSS untuk tombol */
+.card-login input[type="submit"] {
+    background-color:  #658EA0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CSS untuk efek hover pada tombol */
+.card-login input[type="submit"]:hover {
+    background-color:  #004AAD ;
+}
+
+
